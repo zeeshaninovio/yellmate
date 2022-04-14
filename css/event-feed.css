@@ -1,0 +1,48 @@
+.event-feed .event-feed-dt {
+    display: flex;
+    justify-content: space-between;
+}
+.event-feed .event-feed-dt p {
+    font-size: 13px;
+}
+.feature-section.event-feed p.banner-para {
+    font-size: 11px;
+    color: #000;
+}
+button.btn.about {
+    border: 2px solid #000;
+    color: #000;
+}
+.user-content {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.user-content p {
+    margin: 0;
+    font-size: 24px;
+    font-weight: bold;
+}
+.feature-section.event-feed .features-content {
+    margin: 4rem 0;
+}
+.event-feed .features-content hr {
+    border-top: 1px solid #000;
+}
+section.black-section.event-feed-section {
+    padding: 3rem;
+}
+section.black-section.event-feed-section p {
+    color: #fff;
+}
+section.black-section.event-feed-section .feature-section.event-feed p.banner-para {
+    color: #fff;
+}
+section.black-section.event-feed-section button.btn.about {
+    border: 1px solid #fff;
+    color: #fff;
+}
+.user-img img {
+    width: 31px;
+    height: 31px;
+}

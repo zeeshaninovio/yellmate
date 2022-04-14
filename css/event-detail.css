@@ -1,0 +1,73 @@
+.event-images img {
+    width: 160px;
+}
+.event-detail h3.event-head {
+    font-size: 14px;
+    font-weight: bold;
+}
+.event-para-anchor a {
+    font-size: 11px;
+    font-weight: 500;
+    color: #f00;
+}
+.event-para-anchor p {
+    font-size: 11px;
+    font-weight: 500;
+    margin:  0;
+    margin-top: 5px;
+}
+.event-para-anchor i {
+    color: #f00;
+    font-size: 11px;
+    font-weight: lighter;
+}
+.user-img img {
+    width: 31px;
+    height: 31px;
+}
+.user-content {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.feature-section.event-detail .features-content {
+    margin: 4rem 0;
+}
+ .event-detail-dt p {
+    font-size: 13px;
+}
+ .event-detail-dt {
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+}
+section.black-section.event-detail-section p.noofp {
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    margin: 0;
+}
+.event-detail-sec {
+    padding: 4rem;
+}
+section.black-section.event-detail-sec p.noofp {
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    margin: 0;
+}
+section.black-section.event-detail-sec p.banner-para {
+    font-size: 11px;
+    color: #fff;
+}
+section.black-section.event-detail-sec hr {
+    border-top: 1px solid #474747;
+}
+section.black-section.event-detail-sec .detail-btn {
+    display: flex;
+    gap: 7rem;
+}
+section.black-section.event-detail-sec a.btn.detial.joinbtn {
+    background: #fff;
+    color: #000;
+}

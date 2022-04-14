@@ -1,0 +1,42 @@
+footer{
+    background:none;
+}
+.copyright {
+    background: none;
+}
+h3.heading-page {
+    color: #fff;
+    font-weight: bold;
+}
+.head-page {
+    background: #212020;
+    text-align: center;
+    padding: 2rem;
+}
+section.about-us-section .feature-section p.banner-para {
+    font-size: 11px;
+    color: #000;
+}
+section.about-us-section .features-content {
+    margin: 2rem 0;
+}
+section.about-us-section section.yellow-container.features-sec .feature-section {
+    padding: 2rem 0;
+}
+section.black-section .person-head {
+    text-align: center;
+}
+section.black-section .black-sec-content {
+    text-align: center;
+}
+.black-sec-content .name {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    color: #fff;
+    margin: 0;
+}
+.black-sec-content p {
+    font-size: 12px;
+    color: #fff;
+}
