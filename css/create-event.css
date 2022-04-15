@@ -1,0 +1,41 @@
+section.create-event{
+    background: #F9D729;
+}
+#Add-Photo {
+    opacity: 0;
+    position: absolute;
+    z-index: -1;
+ }
+ .form-group label {
+    display: block;
+}
+.venue {
+    margin-top: 3rem;
+}
+.createevent .form-group img {
+    width: 90px;
+}
+button.btn.red-btn {
+    color: #f9d729;
+}
+.createevent {
+    padding: 5rem 0;
+}
+.form-control {
+    font-family: 'Twc';
+    background: #f9d729;
+    border: 0;
+    border-bottom: 1px solid #0A0A0A;
+    border-radius: 0;
+    color: #090909;
+    padding-left: 0;
+}
+label {
+    width: 100px;
+}
+.form-control:focus {
+    color: #090909;
+    background-color: #f9d729;
+    border-color: #0a0a0a;
+    outline: 0;
+}

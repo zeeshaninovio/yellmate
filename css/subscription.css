@@ -1,0 +1,103 @@
+section.subscription-sec {
+    background: #F9D729;
+    padding: 5rem 0;
+    font-family: "Twc";
+}
+input[type="checkbox"] {position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;}
+.custom-check input:checked ~ .checkmark {
+    background-color: #000000;
+}
+.custom-check input:checked ~ .checkmark:after {
+    display: block;
+}
+.custom-check .checkmark:after {
+    left: 4px;
+    top: 0px;
+    width: 7px;
+    height: 13px;
+    border: solid #000;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+.custom-check input:checked ~ .checkmark {
+    background-color: #fff;
+}
+.checkmark {
+    position: absolute;
+    top: 3px;
+    left: 15px;
+    height: 15px;
+    width: 15px;
+    background-color: #fff;
+}
+
+label.custom-check {margin-left: 1.5rem;}
+.subscription-content li {
+    list-style: none;
+    font-size: 15px;
+}
+.subscription-content {
+    color: #fff;
+}
+.text-w-ticks {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: .8rem;
+}
+span.terms {
+    text-decoration: underline;
+}
+.month5 {
+    display: flex;
+    align-items: center;
+}
+.month5 p:nth-child(1) {
+    font-size: 53px;
+    font-family: 'Bebas Neue', cursive;
+    color: #F9D729;
+}
+.month5 p:nth-child(2) {
+    font-size: 23px;
+    color: #F9D729;
+}
+section.subscription-sec p.usd {
+    margin: 0;
+    color: #F9D729;
+}
+.subcription {
+    background: #362F0F;
+    width: 303px;
+    height: auto;
+    padding: 1rem 1.5rem;
+}
+.text-w-ticks i {
+    color: #F9D729;
+}
+.subscribe-txt {
+    margin: auto 0;
+}
+.subscription-content button.btn.red-btn {
+    color: #f9d729;
+}
+.paynow {
+    text-align: center;
+}
+label.custom-check {
+    font-size: 14px;
+}
+span.terms a {
+    text-decoration: underline;
+    color: #fff;
+}

@@ -1,0 +1,16 @@
+.form-control::placeholder {
+    color: #fff;
+}
+
+.payment {background: #362F0F;}
+.form-control {
+    background: transparent;
+}
+.payment {
+    width: 400px;
+    padding: 2rem;
+    margin: 4rem auto;
+}
+.form-group label {
+    color: #fff;
+}

@@ -2,6 +2,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato&display=swap');
+@font-face {
+  font-family: 'Twc';
+  src: url('../fonts/TCM_____.TTF');
+}
 /* Font Family */
 
 /* Universal Css Start Here */
@@ -48,13 +52,14 @@ h5 {
   line-height: 30px;
 }
 a.btn {
-  background: #81be41;
-  color: #fff;
-  font-size: 14px;
-  padding: 10px 20px;
-  font-weight: 500;
-  transition: 0.6s;
-  border-radius: 5px;
+  background-color: transparent;
+    padding: 10px 10px;
+    color: #000;
+    transition: 0.6s;
+    border-radius: 5px;
+    text-decoration: underline;
+    font-size: 11px;
+    font-weight: 900;
 }
 figure {
   margin-bottom: 0;
@@ -318,7 +323,7 @@ section.latest-news-wrapper .button-group {
 flex-grow: 1;
 text-align: end;
 }
-section.latest-news-wrapper a.btn {
+a.btn {
 background-color: transparent;
 padding: 10px 10px;
 color: #000;
@@ -327,6 +332,20 @@ border-radius: 5px;
 text-decoration: underline;
 font-size: 11px;
 font-weight: 900;
+}
+.form-group label {
+  font-family: 'Bebas Neue', cursive;
+  font-size: 22px;
+  color: #f00;
+}
+.form-control {
+  font-family: 'Twc';
+  background: #f9d729;
+  border: 0;
+  border-bottom: 1px solid #0A0A0A;
+  border-radius: 0;
+  color: #090909;
+  padding-left: 0;
 }
 /* section latestnews css Ene here */
 
@@ -365,8 +384,9 @@ a.btn.detial {
   padding: 9px 24px;
 }
 p.banner-para {
-  font-size: 11px;
+  font-size: 16px;
   color: #000;
+  font-family: 'Twc';
 }
 section.yellow-container.features-sec .feature-section {
   padding: 6rem 0;
@@ -412,7 +432,7 @@ section.yellow-container.features-sec button.btn.red-btn {
 h3.red-heading {
   font-family: 'Bebas Neue', cursive;
   font-size: 24px;
-  font-weight: 800;
+  /* font-weight: 800; */
   color: #f00;
 }
 section.yellow-container .yellow-event {
@@ -1438,7 +1458,7 @@ footer .footer_content ul.info li i {
 }
 footer {
   padding: 5rem 0px;
-  background: #000;
+  /* background: #000; */
 }
 footer .footer_content {
   margin-bottom: 35px;
@@ -1519,7 +1539,7 @@ footer .footer_content ul.info li img {
   padding: 20px 0;
   text-align: center;
   border-top: 1px solid #7070702e;
-  background: #000;
+  /* background: #000; */
 
 }
 .copyright p {
@@ -1538,6 +1558,7 @@ footer .footer_content ul.info li img {
 h3.heading-page {
   color: #fff;
   font-weight: bold;
+  font-family: 'Bebas Neue', cursive;
 }
 .head-page {
   background: #212020;

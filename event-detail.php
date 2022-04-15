@@ -9,7 +9,7 @@
 <section class="parallax-scroll">
     <section class="event-detail-section">
         <div class="head-page">
-            <h3 class="heading-page">Event DETAIL</h3>
+            <h3 class="heading-page">EVENT DETAIL</h3>
         </div>
         <section class="yellow-container features-sec event-detail-sec">
             <div class="container">

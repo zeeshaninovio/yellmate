@@ -15,7 +15,7 @@
                         <li class="menu-items"><a href="index.php">HOME</a></li>
                         <li class="menu-items"><a href="about-us.php">About Us</a></li>
                         <li class="menu-items"><a href="explore-events.php">Explore Events</a></li>
-                        <li class="menu-items"><a href="contact-us">Contact Us</a></li>
+                        <li class="menu-items"><a href="contact-us.php">Contact Us</a></li>
                     </ul>
                 </div>
             </div>

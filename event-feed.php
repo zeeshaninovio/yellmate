@@ -9,7 +9,7 @@
 <section class="parallax-scroll">
     <section class="about-us-section">
         <div class="head-page">
-            <h3 class="heading-page">Event FEED</h3>
+            <h3 class="heading-page">EVENT FEED</h3>
         </div>
         <section class="yellow-container features-sec event-feed-section">
             <div class="container">

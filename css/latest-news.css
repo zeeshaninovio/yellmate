@@ -1,0 +1,42 @@
+.latestnews-content .card-items {
+    margin: auto;
+    width: fit-content;
+    background: #000;
+}
+.latestnews-content .card-text {
+    color: #fff;
+}
+.latestnews-content p.banner-para {
+    color: #fff;
+}
+.latestnews-content .card-text {
+    margin: 1.5rem 1.5rem 0px 1.5rem;
+}
+.latestnews-content .card-content a.btn {
+    color: #fff;
+}
+.latestnews-content .card-content {
+    display: flex;
+    align-items: center;
+    font-size: 11px;
+    padding: 0 0 0.6rem 0;
+    justify-content: space-between;
+    background: none;
+}
+.latestnews-content hr {
+    border-top: 1px solid #707070;
+}
+.latestnews-content a.btn{
+    text-decoration: none;
+}
+.latestnews-content a.btn::after{
+    content: ">";
+    position: absolute;
+    /* background:url(../img/arrow-right.png) ; */
+    font-size: 17px;
+    top: 7px;
+    right: -3px;
+}
+.latestnews-content .button-group{
+    position: relative;
+}
