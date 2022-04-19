@@ -1,0 +1,131 @@
+section.sign-in-section #header-top {
+    top: 0;
+    z-index: 9;
+    width: 100%;
+    background: transparent;
+    /* position: absolute; */
+}
+section.sign-in-section{
+    background:url(../img/loginpage.png);
+    height: 100vh;
+    overflow-x: hidden;
+}
+.signin {
+    text-align: center;
+}
+p.sign {
+    font-family: 'Poppins';
+    font-weight: 300;
+    color: #fff;
+    font-size: 27px;
+}
+section.sign-in-section p{
+    font-family: 'Poppins'; 
+    color: #fff;
+}
+p.classmember {
+    display: inline-block;
+}
+span.signupbtn a {
+    text-decoration: none;
+    color: #FFD814;
+    font-weight: bold;
+    font-size: 14px;
+}
+section.sign-in-section .form-control {
+    font-family: 'poppins';
+    background: transparent;
+    border-bottom: 1px solid #fff;
+    font-size: 14px;
+    padding-left: 1rem;
+    color: #fff;
+}
+section.sign-in-section .form-control::placeholder{
+    color: #fff;
+}
+section.sign-in-section button.btn.btn-primary {
+    background: #FFD814;
+    color: #000;
+    font-family: "Poppins";
+    padding: 10px 25px;
+    width: 100%;
+    cursor: pointer;
+    border: 0;
+    transition: 0.6s;
+    border-radius: 0;
+    font-size: 14px;
+    font-weight: 100;
+}
+section.sign-in-section .form-group input.custom-checkbox {
+    padding: 0;
+    height: initial;
+    width: initial;
+    margin-bottom: 0;
+    display: none;
+    cursor: pointer;
+  }
+  
+  section.sign-in-section .form-group label {
+    position: relative;
+    cursor: pointer;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    color: #fff;
+}
+  
+  section.sign-in-section .form-group label:before {
+    content:'';
+    -webkit-appearance: none;
+    background-color: transparent;
+    border: 1px solid #fff;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), inset 0px -15px 10px -12px rgba(0, 0, 0, 0.05);
+    padding: 7px;
+    display: inline-block;
+    position: relative;
+    vertical-align: middle;
+    cursor: pointer;
+    margin-right: 5px;
+  }
+  
+  section.sign-in-section .form-group input:checked + label:after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 2px;
+    left: 6px;
+    width: 6px;
+    height: 14px;
+    border: solid #fff;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+  }
+  section.sign-in-section p.classmember {
+    font-size: 14px;
+}
+section.sign-in-section .form-group {
+    text-align: left;
+}
+section.signin-sec {
+    margin-top: 6rem;
+}
+i.fa.fa-eye-slash {
+    color: #fff;
+}
+.input-group.mb-2.mr-sm-2 {
+    border-bottom: 1px solid #fff;
+}
+input#inputpassword {
+    border: 0;
+}
+input#inputcpassword {
+    border: 0;
+}
+input#InputEmail1::placeholder{
+    text-align: center;
+}
+input#npassword {
+    text-align: center;
+}
+input#cnpassword {
+    text-align: center;
+}

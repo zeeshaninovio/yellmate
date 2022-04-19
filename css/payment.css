@@ -14,3 +14,31 @@
 .form-group label {
     color: #fff;
 }
+.payment p.subs-head {
+    font-size: 22px;
+    color: #fff;
+    margin: 0;
+    text-align: right;
+}
+.payment .paymentsubs {
+    border: 1px solid #fff;
+    padding: 0.6rem 0;
+    margin: 1rem 0;
+}
+.payment button.btn.red-btn {
+    width: 100%;
+    color: #F9D729;
+}
+.payment-icons {
+    display: flex;
+    background: #fff;
+    padding: 0.2rem 0.5rem;
+    width: fit-content;
+}
+.payment-icons img {
+    width: 35px;
+}
+section.payment-sec {
+    background: #F9D729;
+    padding: 2rem;
+}

@@ -63,7 +63,7 @@
                                     </div>
                                 </div>
                                 <div class="paynow">
-                                    <button class="btn red-btn">Pay Now</button>
+                                    <a href="payment.php" class="btn red-btn">Pay Now</a>
                                 </div>
                             </div>
                         </div>

@@ -14,7 +14,7 @@
                     <ul class="menus">
                         <li class="menu-items"><a href="index.php">HOME</a></li>
                         <li class="menu-items"><a href="about-us.php">About Us</a></li>
-                        <li class="menu-items"><a href="explore-events.php">Explore Events</a></li>
+                        <li class="menu-items"><a href="event-feed.php">Explore Events</a></li>
                         <li class="menu-items"><a href="contact-us.php">Contact Us</a></li>
                     </ul>
                 </div>
@@ -31,7 +31,7 @@
                             </a></li>
                         <li class="menu-items"><a href="sign-in.php" class="sign">Sign in</a></li>
                         <li class="menu-items">|</li>
-                        <li class="menu-items"><a href="register.php" class="sign">Register</a></li>
+                        <li class="menu-items"><a href="sign-up.php" class="sign">Register</a></li>
                     </ul>
                     <div class="canvas_btn">
                         <i class="fa fa-bars" aria-hidden="true"></i>

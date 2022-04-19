@@ -28,8 +28,8 @@
                             <ul class="footer_menus">
                                 <li><a href="index.php">Home</a></li>
                                 <li><a href="about-us.php">About Us</a></li>
-                                <li><a href="explore-events">Event</a></li>
-                                <li><a href="#">Create Event</a></li>
+                                <li><a href="event-feed.php">Event</a></li>
+                                <li><a href="create-event.php">Create Event</a></li>
                             </ul>
                         </div>
                     </div>
@@ -39,7 +39,7 @@
                                 <h5></h5>
                             </div>
                             <ul class="footer_menus">
-                                <li><a href="#">Blogs</a></li>
+                                <li><a href="latest-news.php">Blogs</a></li>
                                 <li><a href="#">Chat</a></li>
                                 <li><a href="#">Privacy Policy</a></li>
                                 <li><a href="#">Terms & Condition</a></li>

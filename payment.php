@@ -39,28 +39,31 @@
                             <div class="col-md-12">
                                 <div class="form-group">
                                     <label for="incardno">Card Number</label>
-                                    <input type="text" class="form-control" id="incardno" placeholder="**********"
+                                    <input type="text" class="form-control" id="incardno"
+                                        placeholder="**********                                       mm/yy    cvc"
                                         required="">
                                 </div>
                             </div>
                         </div>
                         <div class="row">
-                            <div class="payment-icons">
-                                <div>
-                                    <img class="img-fluid" src="img/payment1.png" alt="">
-                                </div>
-                                <div>
-                                    <img class="img-fluid" src="img/payment2.png" alt="">
-                                </div>
-                                <div>
-                                    <img class="img-fluid" src="img/payment3.png" alt="">
-                                </div>
-                                <div>
-                                    <img class="img-fluid" src="img/payment4.png" alt="">
+                            <div class="col-md-12">
+                                <div class="payment-icons">
+                                    <div>
+                                        <img class="img-fluid" src="img/payment1.png" alt="">
+                                    </div>
+                                    <div>
+                                        <img class="img-fluid" src="img/payment2.png" alt="">
+                                    </div>
+                                    <div>
+                                        <img class="img-fluid" src="img/payment3.png" alt="">
+                                    </div>
+                                    <div>
+                                        <img class="img-fluid" src="img/payment4.png" alt="">
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="row">
+                        <div class="row paymentsubs">
                             <div class="col-md-4">
                                 <div>
                                     <p class="subs-head">Subscription</p>
@@ -68,10 +71,10 @@
                             </div>
                             <div class="col-md-4"></div>
                             <div class="col-md-4">
-                                <p> £5/mon</p>
+                                <p class="subs-head"> £5/mon</p>
                             </div>
                         </div>
-                        <button class="btn red-btn">Upload Event</button>
+                        <button class="btn red-btn">Pay</button>
                     </form>
                 </div>
             </div>

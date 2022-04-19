@@ -6,6 +6,14 @@
   font-family: 'Twc';
   src: url('../fonts/TCM_____.TTF');
 }
+@font-face {
+  font-family: 'bebas';
+  src: url('../fonts/BebasNeue-Regular.ttf');
+}
+@font-face {
+  font-family: 'azon';
+  src: url('../fonts/Azonix.otf');
+}
 /* Font Family */
 
 /* Universal Css Start Here */
@@ -486,6 +494,12 @@ section.banner_sec .banner-content {
   padding-top: 12rem;
   width: 30rem;
   padding-bottom: 8rem;
+}
+section.banner_sec p.eve-para {
+  font-family: 'azon';
+}
+section.banner_sec p.eve-para:nth-child(3) {
+  font-size: 30px;
 }
 .parallax-scroll {
   /* The image used */
@@ -1557,7 +1571,7 @@ footer .footer_content ul.info li img {
 /* every page heading start*/
 h3.heading-page {
   color: #fff;
-  font-weight: bold;
+  /* font-weight: bold; */
   font-family: 'Bebas Neue', cursive;
 }
 .head-page {
@@ -1590,6 +1604,32 @@ h3.heading-page {
   height: 60px;
   -webkit-animation: animate-preloader 1s linear infinite;
   animation: animate-preloader 1s linear infinite;
+}
+a.btn.about {
+  background: transparent;
+  border: 2px solid #fff;
+  border-radius: 0;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 100;
+  padding: 9px 24px;
+  text-decoration:none;
+}
+p{
+  font-family: 'bebas';
+}
+a.btn.red-btn {
+  background: #FF0000;
+  color: #F9D729;
+  font-family: "Poppins";
+  padding: 10px 25px;
+  cursor: pointer;
+  border: 0;
+  transition: 0.6s;
+  border-radius: 0;
+  font-size: 14px;
+  font-weight: 100;
+  text-decoration:none;
 }
 @-webkit-keyframes animate-preloader {
   0% {
