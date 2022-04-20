@@ -6,6 +6,7 @@
 }
 .chart_sec {
   padding: 80px 0;
+  background: #F9D729;
 }
 .chart_sec .title_strip {
   background: #d50808;
@@ -281,6 +282,10 @@ section.chart_sec .chating_user_detail .your_message.chatting p.date {
   color: #000;
   font-family: "Poppins";
   font-size: 14px;
+  padding: 10px;
+}
+.input-group.mb-2.mr-sm-2 {
+  padding-right: 10px;
 }
 .chart_sec
   .chattings
@@ -358,7 +363,29 @@ section.chart_sec .chattings .img_box span.commit {
 }
 .input-group-prepend {
   background: #f8f8f8;
-  height: 33px;
+  height: 37px;
+}
+i.fa.fa-paperclip {
+  transform: rotate(90deg);
+  background: #000;
+  color: #fff;
+  padding: 5px;
+  border-radius: 50%;
+  margin: 3px 10px;
+  font-size: 22px;
+}
+section.chatting-page-section label.chattingfileattach {
+  cursor: pointer;
+  /* Style as you please, it will become the visible UI component. */
+}
+
+section.chatting-page-section #upload-photo {
+  opacity: 0;
+  position: absolute;
+  z-index: -1;
+}
+section.chart_sec .chating_user_detail .bottom_bar .button-group {
+  padding-right: 10px;
 }
 @media (max-width: 575px) {
   .universal-Banner .un-ban .banner-img {

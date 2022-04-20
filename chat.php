@@ -7,7 +7,7 @@
 <!-- Css Stylesheet -->
 
 <section class="parallax-scroll">
-    <section class="subscription-section">
+    <section class="chatting-page-section">
         <div class="head-page">
             <h3 class="heading-page">CHAT</h3>
         </div>
@@ -404,14 +404,19 @@
                                         <div class="input-group mb-2 mr-sm-2">
                                             <input type="text" class="form-control" placeholder="Type something">
                                             <div class="input-group-prepend">
-                                                <div class="input-group-text"><i class="fa fa-paperclip" aria-hidden="true"></i></div>
+                                                <div class="input-group-text">
+
+                                                    <label class="chattingfileattach" for="upload-photo"><i class="fa fa-paperclip"
+                                                            aria-hidden="true"></i></label>
+                                                    <input type="file" class="form-control-file"
+                                                        id="upload-photo">
+                                                </div>
                                             </div>
                                         </div>
 
                                     </div>
                                     <div class="button-group">
-                                        <button class="btn send_btn"><i class="fa fa-location-arrow"
-                                                aria-hidden="true"></i></button>
+                                        <button class="btn red-btn">Send Message</button>
                                     </div>
                                 </div>
                             </div>

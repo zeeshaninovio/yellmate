@@ -27,7 +27,7 @@
                         <li class="menu-items search_icon"><a href="userprofile.php"><img src="img/icon-user.png"
                                     alt="">
                             </a></li>
-                        <li class="menu-items search_icon"><a href="#"><img src="img/message-icon.png" alt="">
+                        <li class="menu-items search_icon"><a href="chat.php"><img src="img/message-icon.png" alt="">
                             </a></li>
                         <li class="menu-items"><a href="sign-in.php" class="sign">Sign in</a></li>
                         <li class="menu-items">|</li>

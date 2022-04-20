@@ -1,0 +1,193 @@
+.username a {
+    color: #fff;
+    /* font-weight: bold; */
+    font-family: 'Bebas Neue', cursive;
+    font-size: 30px;
+}
+.useremail {
+    font-size: 14px;
+    font-family: 'Twc';
+    color: #fff;
+}
+section.profile-sec {
+    background: #FFD814;
+    padding: 6rem 0;
+}
+hr.line {
+    border-top: 1px solid #707070;
+}
+.profilen {
+    /* display: flex; */
+    align-items: center;
+    font-size: 14px;
+    font-family: 'Twc';
+}
+/* .profilen p:nth-child(1) {
+    margin-right: 2rem;
+} */
+.profilen p {
+    font-family: 'Twc';
+    color: #fff;
+}
+h3.personal-head {
+    font-family: 'bebas';
+    color: #fff;
+}
+.username1 a {
+    font-family: 'bebas';
+    color: #fff;
+    text-decoration: none;
+}
+.username1 {
+    padding-left: 2rem;
+}
+.useriamge {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 2rem;
+}
+.useriamge img {
+    width: 70px;
+    height: 60px;
+}
+.user-profile-sec {
+    background: #000;
+    /* height: 430px; */
+}
+section.profile-sec .personal-info-sec {
+    background: #000;
+    padding: 2rem 3rem;
+}
+span.editicon {
+    font-family: 'Twc';
+    font-size: 19px;
+    color: #fff;
+}
+img.img-fluid.edit-img {
+    width: 14px;
+    height: 14px;
+}
+label.changeprofilepic {
+    cursor: pointer;
+    /* Style as you please, it will become the visible UI component. */
+ }
+ 
+ #changepic {
+    opacity: 0;
+    position: absolute;
+    z-index: -1;
+ }
+ label.changeprofilepic {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background: #fff;
+    border-radius: 50%;
+    padding: 0px 5px;
+    line-height: 21px;
+}
+img.img-fluid.changepropic {
+    width: 15px;
+    height: 15px;
+    /* background: #fff; */
+    /* border-radius: 50%; */
+}
+.useriamge a {
+    position: relative;
+}
+/* change password css start here */
+.profile-change-pass-sec .form-group label {
+    font-family: 'Twc';
+    font-size: 16px;
+    color: #979797;
+}
+.profile-change-pass-sec .form-control {
+    font-family: 'Twc';
+    background: transparent;
+    border: 0;
+    border-bottom: 1px solid #fff;
+    border-radius: 0;
+    color: #fff;
+    padding-left: 0;
+    font-size: 16px;
+}
+.profile-change-pass-sec button.btn.red-btn{
+    color: #FFD814;
+}
+.profile-change-pass-sec .user-profile-sec {
+    background: #000;
+    height: 600px;
+}
+/* change password css End here */
+/* posted event css start here */
+section.posted-events-sec p.posted-heading {
+    color: #fff;
+    margin: 0;
+}
+section.posted-events-sec a.btn{
+    color: #fff;
+    font-family: 'Twc';
+}
+section.posted-events-sec .user-profile-sec {
+    background: #000;
+    height: 515px;
+}
+section.posted-events-sec .row.posted-event-desc {
+    align-items: center;
+}
+
+/* posted event css End here */
+/* user event detail css start here */
+.col-md-6.userdetial-eventimg {
+    width: 100%;
+    margin: auto;
+}
+/* user event detail css End here */
+/* change event detail css start here */
+.profilechangedetail .form-group label {
+    font-family: 'bebas';
+    font-size: 16px;
+    color: #fff;
+}
+.profilechangedetail .form-control::placeholder{
+    color: #fff;
+    font-size: 13px;
+}
+.profilechangedetail .user-profile-sec {
+    background: #000;
+    height: 570px;
+}
+.profilechangedetail label.addphoto {
+    cursor: pointer;
+    /* Style as you please, it will become the visible UI component. */
+ }
+ 
+ .profilechangedetail #inputaddphoto {
+    opacity: 0;
+    position: absolute;
+    z-index: -1;
+ }
+ .profilechangedetail img.img-fluid.addphotoimg {
+    display: block;
+    width: 70px;
+    height: 70px;
+}
+.request-event button.btn.btn-red {
+    padding: 5px 20px;
+    font-family: 'Twc';
+    font-size: 13px;
+    border-radius: 0;
+    color: #fff;
+    background: #FF0000;
+}
+.request-event button.btn.whitebtn {
+    padding: 5px 20px;
+    font-family: 'Twc';
+    font-size: 13px;
+    border-radius: 0;
+}
+.request-event .row.posted-event-desc {
+    text-align: center;
+}
+/* change event detail css start here */
