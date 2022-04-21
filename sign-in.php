@@ -1,11 +1,12 @@
 <!-- Css Stylesheet -->
 <link rel="stylesheet" href="css/sign-in.css">
 <!-- Css Stylesheet -->
+<!-- App Include Here -->
+<?php include 'inc/app.php';?>
+    <!-- App Include Here -->
 <!-- section banner start here -->
 <section class="sign-in-section">
-    <!-- App Include Here -->
-    <?php include 'inc/app.php';?>
-    <!-- App Include Here -->
+    
     <section class="signin-sec">
         <div class="signin">
             <div class="row">
@@ -36,7 +37,7 @@
                             <div class="col-md-3"></div>
                             <div class="col-md-4">
                                 <a href="forget-password.php">
-                                    <p class="classmember">Forgot Password ?</p>
+                                    <a href="forget-password.php"><p class="classmember">Forgot Password ?</p></a>
                                 </a>
                             </div>
                         </div>
@@ -54,3 +55,6 @@
     </section>
 </section>
 <!-- section banner End here -->
+<!-- Footer Include Here -->
+<?php include 'inc/footer.php';?>
+    <!-- Footer Include Here -->

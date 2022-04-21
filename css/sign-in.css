@@ -1,9 +1,18 @@
-section.sign-in-section #header-top {
+#header-top {
     top: 0;
     z-index: 9;
     width: 100%;
-    background: transparent;
-    /* position: absolute; */
+    background: transparent !important;
+    position: absolute;
+}
+.canvas_btn i.fa.fa-bars {
+    color: #fff !important;
+}
+.copyright {
+    display: none;
+}
+footer.footer {
+    display: none;
 }
 section.sign-in-section{
     background:url(../img/loginpage.png);
@@ -42,6 +51,19 @@ section.sign-in-section .form-control {
 }
 section.sign-in-section .form-control::placeholder{
     color: #fff;
+}
+section.sign-in-section a.btn.btn-primary {
+    background: #FFD814;
+    color: #000;
+    font-family: "Poppins";
+    padding: 10px 25px;
+    width: 100%;
+    cursor: pointer;
+    border: 0;
+    transition: 0.6s;
+    border-radius: 0;
+    font-size: 14px;
+    font-weight: 100;
 }
 section.sign-in-section button.btn.btn-primary {
     background: #FFD814;
@@ -106,7 +128,7 @@ section.sign-in-section .form-group {
     text-align: left;
 }
 section.signin-sec {
-    margin-top: 6rem;
+    margin-top: 12rem;
 }
 i.fa.fa-eye-slash {
     color: #fff;
@@ -128,4 +150,13 @@ input#npassword {
 }
 input#cnpassword {
     text-align: center;
+}
+@media(max-width:767px){
+    .signin {
+        padding: 10px;
+    }
+    /* section.sign-in-section #header-top .canvas_btn i.fa.fa-bars{
+        background-color: #fff;
+        padding: 5px;
+    } */
 }

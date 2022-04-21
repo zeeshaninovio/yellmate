@@ -91,8 +91,8 @@ header .canvas_btn i.fa.fa-bars {
   top: 0;
   width: 25%;
   height: 100%;
-  background: #81be41;
-  z-index: 6;
+  background: #F9D729;
+  z-index: 12;
   display: flex;
   align-items: center;
   justify-content: flex-start;
@@ -137,6 +137,28 @@ header .canvas_btn i.fa.fa-bars {
   .mobile_header {
     width: 65%;
   }
+}
+@media(max-width:767px){
+  .mobile_header li.menu-items {
+    list-style: none;
+}
+.mobile_header li.menu-items {
+  display: inline-block;
+  margin-right: 5px;
+}
+.mobile_header ul.action_links {
+  padding: 0;
+}
+.mobile_header li.menu-items a {
+  font-size: 12px;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+.mobile_header .sidenav ul.menus {
+  padding: 0;
+}
 }
 /* Mobile Header Css Start Here */
 
@@ -475,7 +497,7 @@ button.btn.red-btn {
   font-weight: 100;
 }
 section.banner_sec p.banner-para {
-  font-size: 11px;
+  font-size: 14px;
   color: #fff;
 }
 section.banner_sec p.eve-para {
@@ -514,6 +536,33 @@ section.banner_sec p.eve-para:nth-child(3) {
   background-repeat: no-repeat;
   background-size: cover;
 }
+@media(max-width:767px){
+  section.yellow-container .yellow-event{
+    margin-left: 10px;
+  }
+  section.banner_sec .banner-content{
+    width: auto;
+  }
+  .sec-content{
+    width: auto;
+  }
+  section.latest-news-wrapper .latest-news-txt {
+    width: auto;
+  }
+  .features-content .text-w-ticks li{
+    font-size: 12px;
+  }
+  section.latest-news-wrapper .card-items{
+    margin-bottom: 10px;
+  }
+  section.yellow-container.become-yellmate-sec {
+    padding: 2rem 0;
+}
+.become-yell-txt {
+  padding: 1rem;
+}
+}
+
 .banner_sec .left-tree {
   position: absolute;
   left: 0;
@@ -1467,8 +1516,12 @@ section.banner_sec p.eve-para:nth-child(3) {
 /* Newsletter Css End Here */
 
 /* Footer Css Start Here */
+.footer_content.footerblog {
+  margin-top: 7px;
+}
 footer .footer_content ul.info li i {
   color: #FF0000;
+  margin-right: 5px;
 }
 footer {
   padding: 5rem 0px;
@@ -1493,7 +1546,7 @@ footer .footer_content ul.social_links li {
   display: inline-block;
 }
 footer .footer_content ul.social_links li {
-  background: #08517f;
+  background: #f9d729;
   width: 40px;
   text-align: center;
   line-height: 40px;

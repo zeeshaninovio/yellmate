@@ -91,10 +91,10 @@
                                         <a href="#" class="btn detial joinbtn">Request to Join</a>
                                     </div>
                                     <div>
-                                        <a href="#" class="btn detial">Chat with Organizer</a>
+                                        <a href="chat.php" class="btn detial">Chat with Organizer</a>
                                     </div>
                                     <div>
-                                        <a href="#" class="btn detial">Visit Organizer's Profile</a>
+                                        <a href="othersprofile.php" class="btn detial">Visit Organizer's Profile</a>
                                     </div>
                                 </div>
                             </div>

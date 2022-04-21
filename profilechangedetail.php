@@ -39,7 +39,7 @@
                             <hr class="line">
                             <div class="username1"><a href="request-event.php">Event Requests</a></div>
                             <hr class="line">
-                            <div class="username1"><a href="applied-event.php">Applied Events</a></div>
+                            <div class="username1"><a href="applied-request.php">Applied Events</a></div>
                             <hr class="line">
                             <div class="username1"><a href="user-subscription.php">Subscription</a></div>
                             <hr class="line">

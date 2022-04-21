@@ -33,16 +33,16 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6">
-                        <div class="footer_content">
+                    <div class="col-lg-4 col-md-6 mt-4">
+                        <div class="footer_content footerblog">
                             <div class="head">
                                 <h5></h5>
                             </div>
                             <ul class="footer_menus">
                                 <li><a href="latest-news.php">Blogs</a></li>
-                                <li><a href="#">Chat</a></li>
-                                <li><a href="#">Privacy Policy</a></li>
-                                <li><a href="#">Terms & Condition</a></li>
+                                <li><a href="chat.php">Chat</a></li>
+                                <li><a href="privacypolicy.php">Privacy Policy</a></li>
+                                <li><a href="terms&condition.php">Terms & Condition</a></li>
                             </ul>
                         </div>
                     </div>

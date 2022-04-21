@@ -20,7 +20,7 @@
                             <input type="email" class="form-control" id="InputEmail1"
                                 aria-describedby="emailHelp" placeholder="Enter Email">
                         </div>
-                        <button type="submit" class="btn btn-primary">Submit</button>
+                        <a href="otp.php" type="submit" class="btn btn-primary">Submit</a href="otp.php">
                         <div class="ter mt-4">
                             <p class="classmember">By Creating Account you are agree to our</p>
                             <a href="terms&condition.php">
@@ -35,3 +35,6 @@
     </section>
 </section>
 <!-- section banner End here -->
+<!-- Footer Include Here -->
+<?php include 'inc/footer.php';?>
+    <!-- Footer Include Here -->

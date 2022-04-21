@@ -9,7 +9,7 @@
 <!-- news detail page starts here -->
 <section class="parallax-scroll">
     <!-- section banner start here -->
-    <section class="profile-section posted-events-sec">
+    <section class="profile-section posted-events-sec applied-request">
         <div class="head-page">
             <h3 class="heading-page">PROFILE</h3>
         </div>
@@ -49,8 +49,11 @@
                     </div>
                     <div class="col-md-9 personal-info-sec">
                         <div class="information">
-                            <h3 class="red-heading">Posted Events</h3>
-                            <div class="row">
+                            <h3 class="red-heading">Event Requests</h3>
+                            <div class="row posted-event-desc">
+                                <div class="col">
+                                    <p class="posted-heading">Appliers</p>
+                                </div>
                                 <div class="col">
                                     <p class="posted-heading">Event Title</p>
                                 </div>
@@ -63,10 +66,15 @@
                                 <div class="col">
                                     <p class="posted-heading">Start Time</p>
                                 </div>
-                                <div class="col"></div>
+                                <div class="col">
+                                    <p class="posted-heading">Status</p>
+                                </div>
                             </div>
                             <hr class="line">
                             <div class="row posted-event-desc">
+                                <div class="col">
+                                    <div class="useremail">John Doe</div>
+                                </div>
                                 <div class="col">
                                     <div class="useremail">Lorem Ipsum</div>
                                 </div>
@@ -80,14 +88,17 @@
                                     <div class="useremail">11 PM</div>
                                 </div>
                                 <div class="col">
-                                    <a class="btn" href="userevent-detail.php">
-                                        View Detail
+                                    <a class="btn Acceptedbtn" href="userevent-detail.php">
+                                        Accepted
                                     </a>
                                 </div>
                             </div>
                             <hr class="line">
                             <div class="row posted-event-desc">
                                 <div class="col">
+                                    <div class="useremail">John Doe</div>
+                                </div>
+                                <div class="col">
                                     <div class="useremail">Lorem Ipsum</div>
                                 </div>
                                 <div class="col">
@@ -100,14 +111,17 @@
                                     <div class="useremail">11 PM</div>
                                 </div>
                                 <div class="col">
-                                    <a class="btn" href="userevent-detail.php">
-                                        View Detail
+                                    <a class="btn Acceptedbtn" href="userevent-detail.php">
+                                    Accepted
                                     </a>
                                 </div>
                             </div>
                             <hr class="line">
                             <div class="row posted-event-desc">
                                 <div class="col">
+                                    <div class="useremail">John Doe</div>
+                                </div>
+                                <div class="col">
                                     <div class="useremail">Lorem Ipsum</div>
                                 </div>
                                 <div class="col">
@@ -120,14 +134,17 @@
                                     <div class="useremail">11 PM</div>
                                 </div>
                                 <div class="col">
-                                    <a class="btn" href="userevent-detail.php">
-                                        View Detail
+                                    <a class="btn Rejectedbtn" href="userevent-detail.php">
+                                        Rejected
                                     </a>
                                 </div>
                             </div>
                             <hr class="line">
                             <div class="row posted-event-desc">
                                 <div class="col">
+                                    <div class="useremail">John Doe</div>
+                                </div>
+                                <div class="col">
                                     <div class="useremail">Lorem Ipsum</div>
                                 </div>
                                 <div class="col">
@@ -140,14 +157,17 @@
                                     <div class="useremail">11 PM</div>
                                 </div>
                                 <div class="col">
-                                    <a class="btn" href="userevent-detail.php">
-                                        View Detail
+                                    <a class="btn Rejectedbtn" href="userevent-detail.php">
+                                        Rejected
                                     </a>
                                 </div>
                             </div>
                             <hr class="line">
                             <div class="row posted-event-desc">
                                 <div class="col">
+                                    <div class="useremail">John Doe</div>
+                                </div>
+                                <div class="col">
                                     <div class="useremail">Lorem Ipsum</div>
                                 </div>
                                 <div class="col">
@@ -160,8 +180,8 @@
                                     <div class="useremail">11 PM</div>
                                 </div>
                                 <div class="col">
-                                    <a class="btn" href="userevent-detail.php">
-                                        View Detail
+                                    <a class="btn Acceptedbtn" href="userevent-detail.php">
+                                        Accepted
                                     </a>
                                 </div>
                             </div>

@@ -57,16 +57,28 @@
                 d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z" />
         </svg>
     </div>
-    <ul class="action_links">
-        <li class="menu-items search_icon"><a href="#"><img src="img/icon-search.png" alt="">
-            </a></li>
-        <li class="menu-items search_icon"><a href="userprofile.php"><img src="img/icon-user.png" alt="">
-            </a></li>
-        <li class="menu-items search_icon"><a href="#"><img src="img/message-icon.png" alt="">
-            </a></li>
-        <li class="menu-items"><a href="sign-in.php" class="sign">Sign in</a></li>
-        <li class="menu-items">|</li>
-        <li class="menu-items"><a href="register.php" class="sign">Register</a></li>
-    </ul>
+    <div>
+        <ul class="action_links">
+            <li class="menu-items search_icon"><a href="#"><img src="img/icon-search.png" alt="">
+                </a></li>
+            <li class="menu-items search_icon"><a href="userprofile.php"><img src="img/icon-user.png" alt="">
+                </a></li>
+            <li class="menu-items search_icon"><a href="chat.php"><img src="img/message-icon.png" alt="">
+                </a></li>
+            <li class="menu-items"><a href="sign-in.php" class="sign">Sign in</a></li>
+            <li class="menu-items">|</li>
+            <li class="menu-items"><a href="sign-up.php" class="sign">Register</a></li>
+        </ul>
+        <div class=" col-1 sidenav">
+            <div class="navbar_menus">
+                <ul class="menus">
+                    <li class="menu-items"><a href="index.php">HOME</a></li>
+                    <li class="menu-items"><a href="about-us.php">About Us</a></li>
+                    <li class="menu-items"><a href="event-feed.php">Explore Events</a></li>
+                    <li class="menu-items"><a href="contact-us.php">Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
 </div>
 <!-- Mobile Header End Here -->

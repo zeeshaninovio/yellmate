@@ -22,7 +22,7 @@
                             <input type="text" name="email" required="" class="form-control mx-2">
                             <input type="text" name="email" required="" class="form-control mx-2">
                         </div>
-                        <button type="submit" class="btn btn-primary">Send</button>
+                        <a href="changepassword.php" type="submit" class="btn btn-primary">Send</a>
                         <div class="ter mt-4">
                             <p class="classmember">By Creating Account you are agree to our</p>
                             <a href="terms&condition.php">
@@ -37,3 +37,6 @@
     </section>
 </section>
 <!-- section banner End here -->
+<!-- Footer Include Here -->
+<?php include 'inc/footer.php';?>
+    <!-- Footer Include Here -->

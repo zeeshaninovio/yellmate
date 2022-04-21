@@ -74,7 +74,7 @@
                                 <p class="subs-head"> £5/mon</p>
                             </div>
                         </div>
-                        <button class="btn red-btn">Pay</button>
+                        <a href="sign-in.php" class="btn red-btn">Pay</a href="sign-in.php">
                     </form>
                 </div>
             </div>

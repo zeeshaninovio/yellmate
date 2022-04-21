@@ -31,7 +31,7 @@ footer {
             <p class="banner-para">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
                 Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a
                 galley of type and scrambled it to make a type specimen book.</p>
-            <button class="btn red-btn">Add Event</button>
+            <a href="create-event.php" class="btn red-btn">Add Event</a>
             <a href="about-us.php" class="btn about">About Us</a>
         </div>
     </div>
@@ -47,7 +47,7 @@ footer {
                         the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text
                         ever
                         since the 1500s</p>
-                    <button class="btn red-btn">View All</button>
+                    <a href="event-feed.php" class="btn red-btn">View All</a>
                 </div>
             </div>
             <div class="col-lg-8">
@@ -73,7 +73,7 @@ footer {
                 </div>
                 <div class="category-img">
                     <div class="row">
-                        <div class="col-lg-1 col-6">
+                        <div class="col-lg-1 col-12">
                             <div class="img-w-txt">
                                 <div class='search-img'>
                                     <img src="img/searchbycategory4.png" alt="">
@@ -82,7 +82,7 @@ footer {
                             </div>
                         </div>
                         <div class="col"></div>
-                        <div class="col-lg-1 col-6">
+                        <div class="col-lg-1 col-12">
                             <div class="img-w-txt">
                                 <div class='search-img'>
                                     <img src="img/searchbycategory2.png" alt="">
@@ -91,7 +91,7 @@ footer {
                             </div>
                         </div>
                         <div class="col"></div>
-                        <div class="col-lg-1 col-6">
+                        <div class="col-lg-1 col-12">
                             <div class="img-w-txt">
                                 <div class='search-img'>
                                     <img src="img/searchbycategory3.png" alt="">
@@ -100,7 +100,7 @@ footer {
                             </div>
                         </div>
                         <div class="col"></div>
-                        <div class="col-lg-1 col-6">
+                        <div class="col-lg-1 col-12">
                             <div class="img-w-txt">
                                 <div class='search-img'>
                                     <img src="img/searchbycategory1.png" alt="">
@@ -150,7 +150,7 @@ footer {
                                 <i class="fa fa-check" aria-hidden="true"></i>
                                 <li>Lorem ipsum dolor sit amet, consectetur adipiscing</li>
                             </div>
-                            <button class="btn red-btn">Learn more</button>
+                            <a href="about-us.php" class="btn red-btn">Learn more</a>
                         </div>
                     </div>
                 </div>
@@ -185,7 +185,7 @@ footer {
                                         <span class="ml-2">Nov 7, 2021</span>
                                     </div>
                                     <div class="button-group">
-                                        <a href="#" class="btn">Read More</a>
+                                        <a href="latest-news.php" class="btn">Read More</a>
                                     </div>
                                 </div>
 
@@ -211,7 +211,7 @@ footer {
                                         <span class="ml-2">Nov 7, 2021</span>
                                     </div>
                                     <div class="button-group">
-                                        <a href="#" class="btn">Read More</a>
+                                        <a href="latest-news.php" class="btn">Read More</a>
                                     </div>
                                 </div>
                             </div>
@@ -235,7 +235,7 @@ footer {
                                         <span class="ml-2">Nov 7, 2021</span>
                                     </div>
                                     <div class="button-group">
-                                        <a href="#" class="btn">Read More</a>
+                                        <a href="latest-news.php" class="btn">Read More</a>
                                     </div>
                                 </div>
 
@@ -245,7 +245,7 @@ footer {
                     </div>
                 </div>
                 <div class="viewbtn">
-                    <button class="btn red-btn">View all</button>
+                    <a href="latest-news.php" class="btn red-btn">View all</a href="latest-news.php">
                 </div>
             </div>
         </div>
@@ -271,7 +271,7 @@ footer {
                                 deserunt Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
                                 incididunt ut labore et dolore magna aliqua.
                             </p>
-                            <button class="btn red-btn">Buy Membership</button>
+                            <a href="subscription.php" class="btn red-btn">Buy Membership</a href="subscription.php">
                         </div>
                     </div>
                 </div>

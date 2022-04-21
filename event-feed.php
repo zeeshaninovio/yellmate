@@ -36,7 +36,7 @@
                                     <p>VENUE: UNITED STATES</p>
                                 </div>
                                 <hr>
-                                <button class="btn about">View Details</button>
+                                <a href="event-detail.php" class="btn about bl">View Details</a>
                             </div>
                         </div>
                         <div class="col-md-6">
@@ -73,7 +73,7 @@
                                     <p>VENUE: UNITED STATES</p>
                                 </div>
                                 <hr>
-                                <button class="btn about">View Details</button>
+                                <a href="event-detail.php" class="btn about">View Details</a>
                             </div>
                         </div>
                         <div class="col-md-6">
@@ -110,7 +110,7 @@
                                     <p>VENUE: UNITED STATES</p>
                                 </div>
                                 <hr>
-                                <button class="btn about">View Details</button>
+                                <a href="event-detail.php" class="btn about bl">View Details</a>
                             </div>
                         </div>
                         <div class="col-md-6">

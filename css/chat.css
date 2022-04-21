@@ -405,4 +405,12 @@ section.chart_sec .chating_user_detail .bottom_bar .button-group {
     position: unset;
   }
 }
+@media(max-width:767px){
+  .input-group-prepend{
+    height: 38px;
+  }
+  button.btn.red-btn{
+    padding: 10px 5px;
+  }
+}
 /* Chat Css End Here */

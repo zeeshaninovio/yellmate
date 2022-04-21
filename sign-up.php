@@ -94,3 +94,6 @@
     </section>
 </section>
 <!-- section banner End here -->
+<!-- Footer Include Here -->
+<?php include 'inc/footer.php';?>
+    <!-- Footer Include Here -->

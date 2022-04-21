@@ -40,3 +40,8 @@
 .latestnews-content .button-group{
     position: relative;
 }
+@media(max-width:767px){
+    .latestnews-content .card-items{
+        margin-bottom: 5px;
+    }
+}

@@ -50,6 +50,8 @@ h3.personal-head {
 .useriamge img {
     width: 70px;
     height: 60px;
+    border: 1px solid #fff;
+    border-radius: 50%;
 }
 .user-profile-sec {
     background: #000;
@@ -128,6 +130,7 @@ section.posted-events-sec p.posted-heading {
 section.posted-events-sec a.btn{
     color: #fff;
     font-family: 'Twc';
+    font-weight: 100;
 }
 section.posted-events-sec .user-profile-sec {
     background: #000;
@@ -191,3 +194,196 @@ section.posted-events-sec .row.posted-event-desc {
     text-align: center;
 }
 /* change event detail css start here */
+/* spplied request css start here */
+.applied-request a.btn.Acceptedbtn {
+    color: #06DF73;
+    font-weight: 100;
+    font-family: 'Twc';
+}
+.applied-request a.btn.Rejectedbtn {
+    color: #FF0000;
+    font-weight: 100;
+    font-family: 'Twc';
+}
+/* spplied request css start here */
+/* user subscription css start here */
+.user-subscription-sec .payments_methods label.subslabel input:checked ~ span.checkmark .card-details {
+    /* box-shadow: 0px 0px 0px 2px #228dd3; */
+    border-color: #fff;
+    overflow: hidden;
+    position: relative;
+    background-color: #000;
+}
+.user-subscription-sec .payments_methods label.subslabel span.checkmark .card-details {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #707070c7;
+    padding: 10px 20px;
+    background-color: #FFFFFF;
+    position: relative;
+    overflow: hidden;
+}
+.user-subscription-sec .payments_methods label.subslabel input[type="radio"] {
+    opacity: 0;
+}
+.user-subscription-sec .payments_methods label.subslabel {
+    padding: 0;
+}
+.user-subscription-sec .payments_methods label.container input:checked ~ span.checkmark .card-details {
+    box-shadow: 0px 0px 0px 2px #228dd3;
+    border-color: #fff;
+    overflow: hidden;
+    position: relative;
+    background-color: #FFFFFF;
+}
+.user-subscription-sec .payments_methods label.subslabel span.checkmark .card-details {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #707070c7;
+    padding: 10px 20px;
+    background-color: #FFFFFF;
+    position: relative;
+    overflow: hidden;
+}
+.user-subscription-sec .payments_methods label.subslabel input:checked ~ span.checkmark .card-details .radio-btn span {
+    background: #fff;
+}
+.user-subscription-sec .payments_methods label.subslabel span.checkmark .card-details .radio-btn span {
+    background: #ebebeb;
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    left: 15px;
+    border-radius: 50%;
+    border: 2px solid #000;
+    box-shadow: 0px 0px 0px 1px #fff;
+    top: 27.5px;
+}
+.user-subscription-sec .payments_methods label.subslabel span.checkmark .card-details .visa-card {
+    display: flex;
+    align-items: center;
+    padding-left: 40px;
+}
+.user-subscription-sec .payments_methods label.subslabel span.checkmark .card-details .visa-card figure {
+    margin-bottom: 0;
+}
+.user-subscription-sec .payments_methods label.subslabel span.checkmark .card-details .visa-card figure img {
+    background: #fff;
+    padding: 5px;
+    border-radius: 15px;
+}
+.user-subscription-sec .payments_methods label.subslabel span.checkmark .card-details .visa-card .input-box {
+    padding-left: 20px;
+    font-family: 'Twc';
+}
+.user-subscription-sec .payments_methods label.subslabel span.checkmark .card-details .visa-card .input-box label {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 100;
+}
+.user-subscription-sec .payments_methods label.subslabel span.checkmark .card-details .visa-card input {
+    border: 0;
+    height: unset;
+    font-size: 17px;
+    color: #fff;
+    font-weight: 100;
+    background: transparent;
+    font-family: "Twc";
+}
+.user-subscription-sec .payments_methods label.subslabel span.checkmark .card-details .extra-btn {
+    display: flex;
+    align-items: center;
+}
+.user-subscription-sec .payments_methods label.subslabel span.checkmark .card-details .extra-btn button.btn {
+    margin-right: 20px;
+    background: transparent;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+    text-transform: capitalize;
+    opacity: 1;
+    font-family: "Twc";
+}
+.user-subscription-sec .payments_methods label.subslabel input:checked ~ span.checkmark .card-details .extra-btn .selection {
+    opacity: 1;
+}
+.user-subscription-sec .payments_methods label.subslabel span.checkmark .card-details .extra-btn .selection i {
+    background: #fff;
+    color: #000;
+    font-size: 14px;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    line-height: 25px;
+    border-radius: 50%;
+}
+p.carddesc {
+    font-family: 'bebas';
+    color: #fff;
+    margin: 0;
+    font-size: 17px;
+}
+.paymentsubs {
+    border: 1px solid #fff;
+    padding: 0.6rem 0;
+    margin: 1rem 0;
+}
+.month5 {
+    display: flex;
+    align-items: center;
+    font-family: 'bebas';
+    justify-content: center;
+}
+.month5 p:nth-child(1) {
+    font-size: 36px;
+    font-family: 'Bebas Neue', cursive;
+    color: #fff;
+    font-weight: bold;
+}
+.month5 p:nth-child(2) {
+    font-size: 15px;
+    color: #fff;
+    text-transform: lowercase;
+}
+p.smallp {
+    margin: 0;
+    line-height: 0;
+    font-family: 'Twc';
+    font-size: 7px;
+    color: #fff;
+    margin-left: 1rem;
+    padding-top: 1rem;
+}
+p.subs-head {
+    color: #fff;
+    font-family: 'Twc';
+    font-weight: 100;
+    text-decoration: underline;
+    font-size: 13px;
+    margin-top: 1.5rem;
+}
+.month5 p {
+    margin: 0;
+}
+/* user subscription css End here */
+.profilen p {
+    margin: 0;
+}
+.othersprofile-sec .user-profile-sec {
+    background: #000;
+    height: 310px;
+}
+@media(max-width:767px){
+    section.profile-sec .personal-info-sec{
+        margin: 15px;
+        padding: 2rem 2rem;
+    }
+    .request-event button.btn.btn-red, button.btn.whitebtn {
+        margin-top: 10px;
+    }
+    .useremail{
+        font-size: 11px;
+    }
+}

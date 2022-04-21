@@ -46,3 +46,7 @@ section.black-section.event-feed-section button.btn.about {
     width: 31px;
     height: 31px;
 }
+a.btn.about.bl {
+    border: 2px solid #090909;
+    color: #090909;
+}
