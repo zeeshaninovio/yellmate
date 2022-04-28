@@ -39,3 +39,10 @@ label {
     border-color: #0a0a0a;
     outline: 0;
 }
+select#categorys1 {
+    color: #464a4c;
+}
+select option.categoryop {
+    font-family: 'Twc';
+    color: #464a4c;
+}

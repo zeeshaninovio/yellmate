@@ -72,9 +72,18 @@
                                     <input type="text" class="form-control" id="noofpeople"
                                         placeholder="Enter Description Here">
                                 </div>
-
                             </div>
-
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label for="categorys1">Category</label>
+                                    <select class="form-control" id="categorys1">
+                                        <option class="categoryop">Beach</option>
+                                        <option class="categoryop">Out For Coffee</option>
+                                        <option class="categoryop">Night Club</option>
+                                        <option class="categoryop">Other</option>
+                                    </select>
+                                </div>
+                            </div>
                         </div><button class="btn red-btn">Upload Event</button>
                     </form>
                 </div>
